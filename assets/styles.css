@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(10,10,10);
+    color: rgb(240, 240, 240);
+    display: flex; 
+    align-items: center; 
+    flex-direction: column; 
+    width: 100vw; 
+    font-family: Verdana Tahoma, sans-serif;
+}
+
+header {
+    width: 95%; 
+    max-width: 788px; 
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px; 
+    margin-top: 15px;
+}
+
+.share-btn {
+    width: 40px; 
+    height: 40px; 
+    border-radius: 20px;
+    background-color: rgb(240, 240, 240);
+}
+
+.container {
+    width: 91%;
+    max-width: 680px;
+    margin: 10px; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center 
+}
