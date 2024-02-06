@@ -26,6 +26,12 @@ header {
     background-color: rgb(240, 240, 240);
 }
 
+.share-btn svg {
+    margin-left: 12px;
+    margin-top: 10px;
+    color: rgb(0,0,0);
+}
+
 .container {
     width: 91%;
     max-width: 680px;
@@ -45,14 +51,31 @@ a {
     color: rgb(240, 240, 240);
 }
 
-.title {
+.tile {
     width: 100%;
-    height: 56px;
     background-color: rgb(37,37,37);
     margin: 7px;
     border-radius: 17px;
     display: flex;
     justify-content: space-between;
+}
+
+.tile:hover {
+    transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+    transform: scale(1.02);
+}
+
+.tile-share-btn {
+    width: 40px; 
+    height: 40px; 
+    border-radius: 20px;
+    background-color: rgb(52,52,52);
+    margin: 8px; 
+}
+
+.tile-share-btn svg {
+    margin-left: 12px;
+    margin-top: 10px;
 }
 
 .img-container {
@@ -64,4 +87,8 @@ a {
 
 .img-container img {
     height: 100%;
+}
+
+.icon {
+    margin: 8px 8px;
 }
