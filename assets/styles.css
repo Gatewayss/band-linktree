@@ -7,7 +7,7 @@ body {
     align-items: center; 
     flex-direction: column; 
     width: 100vw; 
-    font-family: Verdana Tahoma, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
 header {
@@ -35,10 +35,21 @@ header {
     align-items: center 
 }
 
+h1 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+}
 .title {
     width: 100%;
     height: 56px;
     background-color: rgb(37,37,37);
     margin: 7px;
     border-radius: 17px;
+    display: flex;
+    justify-content: space-between;
 }
