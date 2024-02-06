@@ -44,6 +44,7 @@ a {
     text-decoration: none;
     color: rgb(240, 240, 240);
 }
+
 .title {
     width: 100%;
     height: 56px;
@@ -52,4 +53,15 @@ a {
     border-radius: 17px;
     display: flex;
     justify-content: space-between;
+}
+
+.img-container {
+    height: 96px;
+    width: 96px;
+    border-radius: 48px;
+    overflow: hidden;
+}
+
+.img-container img {
+    height: 100%;
 }
