@@ -65,7 +65,7 @@ a {
     transform: scale(1.02);
 }
 
-.tile-share-btn {
+.tile-share-btn:not(:first-of-type) {
     width: 40px; 
     height: 40px; 
     border-radius: 20px;
