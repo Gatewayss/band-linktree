@@ -70,7 +70,7 @@ a {
 }
 
 .share-btn:hover {
-    transform: scale(1.08);
+    transform: scale(1.09);
     background-color: rgb(52, 52, 52);
     cursor: pointer; 
 } 
