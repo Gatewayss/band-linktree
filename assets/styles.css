@@ -32,6 +32,10 @@ header {
     color: rgb(0,0,0);
 }
 
+.share-btn:hover svg {
+    color: white;
+}
+
 .container {
     width: 91%;
     max-width: 680px;
@@ -71,10 +75,6 @@ a {
     cursor: pointer; 
 } 
 
-.share-btn:hover svg {
-    color: rgb(240, 240, 240);
-}
-
 .tile-share-btn:not(:first-of-type) {
     width: 40px; 
     height: 40px; 
@@ -86,6 +86,11 @@ a {
 .tile-share-btn svg {
     margin-left: 12px;
     margin-top: 10px;
+}
+
+.tile-block:hover {
+    background-color: #fff;
+    color: black;
 }
 
 .img-container {
