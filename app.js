@@ -9,7 +9,7 @@ async function copyText(e) {
 
         const tooltip = document.createElement('div');
         tooltip.className = 'custom-tooltip';
-        tooltip.textContent = 'Link copied!';
+        tooltip.textContent = 'Link Copied!';
         document.body.appendChild(tooltip);
 
         tooltip.offsetHeight;

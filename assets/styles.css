@@ -65,6 +65,15 @@ a {
     transform: scale(1.02);
 }
 
+.share-btn:hover {
+    transform: scale(1.08);
+    background-color: rgb(52, 52, 52);
+} 
+
+.share-btn:hover svg {
+    color: rgb(240, 240, 240);
+}
+
 .tile-share-btn:not(:first-of-type) {
     width: 40px; 
     height: 40px; 
