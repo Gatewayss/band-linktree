@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 0 0 20px 0;
     background-color: rgb(10,10,10);
     color: rgb(240, 240, 240);
     display: flex; 
@@ -125,3 +125,21 @@ a {
 .custom-tooltip.show {
     opacity: 1;
 }
+
+@media screen and (max-width: 496px) {
+    p {
+       text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 404px) {
+    p {
+        text-align: center;
+    }
+    .hide {
+        display: none;
+    }
+    .pre-save {
+        text-align: center;
+    }
+  }
